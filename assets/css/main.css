@@ -1,0 +1,23 @@
+@import url("reset.css");
+@import url("colors.css");
+@import url("typography.css");
+@import url("buttons.css");
+@import url("cards.css");
+
+body {
+  background-color: var(--bg-dark);
+  color: var(--text-muted);
+}
+
+.section {
+  padding: 3rem 0;
+}
+
+.center {
+  max-width: 80vw;
+  margin: 0 auto;
+}
+
+#card-wrapper {
+  background-color: orange;
+}

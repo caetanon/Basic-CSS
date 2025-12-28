@@ -1,0 +1,42 @@
+:root {
+  --bg-light: hsl(0 0 20%);
+  --bg: hsl(0 0 10%);
+  --bg-dark: hsl(0 0 5%);
+
+  --highlight: hsl(0 0 60%);
+  --border: hsl(0 0 20%);
+  --border-card: 1px solid var(--border);
+  --border-card: 1px solid var(--border);
+
+  
+  --text: hsl(0 0 95%);
+  --text-muted: hsl(0 0 70%);
+  
+  --gradient: linear-gradient(var(--bg-light) 0, var(--bg) 20%);
+  --gradient-hover: linear-gradient(0deg, var(--bg), var(--bg-light));
+  
+  --shadow: 0 2px 2px rgba(0,0,0,.15), 0 4px 4px rgba(0,0,0,.15);
+}
+
+body.light {
+  --bg-light: hsl(0 0 98%);
+  --bg: hsl(0 0 95%);
+  --bg-dark: hsl(0 0 95%);
+  
+  --highlight: hsl(0 0 100%);
+  --border: hsl(0 0 70%);
+  --border-card: 1px solid var(--bg);
+  
+  --text: hsl(0 0 5%);
+  --text-muted: hsl(0 0 30%);
+  
+  --gradient: linear-gradient(var(--bg-light) 0, var(--bg) 20%);
+  --gradient-hover: linear-gradient(0deg, var(--bg), var(--bg-light));
+  
+  --shadow: 0 2px 2px rgba(0,0,0,.15), 0 4px 4px rgba(0,0,0,.15);
+  /* --shadow: 0 2px 2px hsla(0%, 0%, 0%, 0.15), 0 4px 4px hsla(0%, 0%, 0%, 0.15); */
+}
+
+.bg-light {
+  background-color: var(--bg-light);
+}

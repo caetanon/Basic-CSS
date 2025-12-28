@@ -1,0 +1,9 @@
+button {
+  background-color: var(--bg);
+  padding: .35rem .7rem;
+  display: inline-block;
+  border-radius: .35rem;
+  border: 1px solid var(--border);
+  cursor: pointer;
+  box-shadow: var(--shadow);
+}

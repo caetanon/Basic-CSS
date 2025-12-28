@@ -1,0 +1,19 @@
+.card-holder {
+  display: flex;
+  gap: .7rem;
+  padding: .7rem 0;
+}
+
+.card {
+  background-image: var(--gradient);
+  padding: 1em;
+  border: 1px solid var(--border);
+  border-top: 1px solid var(--higlight);
+  border-radius: 1rem;
+  box-shadow: var(--shadow);
+}
+
+.card:hover {
+  background-image: var(--gradient-hover);
+  cursor: pointer;
+}
